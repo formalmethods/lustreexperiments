@@ -9,7 +9,7 @@ import importlib
 import psutil
 from intrepyd.engine import EngineResult
 from intrepyd.lustre2py import translator
-import config
+from intrepyd import config
 
 TIMEOUT = 300
 
@@ -154,7 +154,7 @@ def doit():
                                  help='specifies the timeout in seconds for each benchmark')
     argument_parser.add_argument('-c', '--config', default='config.json',
                                  help='Specifies a config file')
-    argument_parser.add_argument('-b, '--benchmarks', default='../../kind2-benchmarks',
+    argument_parser.add_argument('-b', '--benchmarks', type=str, default='../../kind2-benchmarks',
                                  help='Specifies the path to kin2-benchmarks suite')
     parsed_args = argument_parser.parse_args()
     filelist = open(parsed_args.filelist).readlines()
@@ -164,13 +164,13 @@ def doit():
     i = 0
     for fname in filtered_filelist:
         i += 1
-        fullname = parser_args.benchmarks + '/' + fname
+        fullname = parsed_args.benchmarks + '/' + fname
         sys.stdout.flush()
-        translator.translate(fname, 'top', 'encoding.py', cfg['type.real'])
+        translator.translate(fullname, 'top', 'encoding.py', cfg['type.real'])
         time.sleep(1) # Give some extra time to write encoding.py to a file
         result, mtime = run_with_timeout(fullname, parsed_args.timeout, parsed_args.tool)
         # print '%4.1f %% %s %s %.2f' % (100.0 * i / len_filelist, fname, result, mtime)
-        print %s %s %.2f' % (fname, result, mtime)
+        print '%s %s %.2f' % (fname, result, mtime)
         sys.stdout.flush()
 
 if __name__ == "__main__":
