@@ -25,3 +25,7 @@
 Results are printed on stdout, so you might want to redirect it
 to a file
 
+## Intrepyd
+
+Intrepyd version used: 0.5.0
+
