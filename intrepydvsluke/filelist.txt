@@ -27,102 +27,102 @@
 # FunctionalChain/triplexVoter/triplexVoter.lus
 # FunctionalChain/triplexVoter/triplexVoter_bounds.lus
 # FunctionalChain/triplexVoter/triplexVoter_str.lus
-# large/ccp01.lus
-# large/ccp02.lus
-# large/ccp03.lus
-# large/ccp04.lus
-# large/ccp05.lus
-# large/ccp06.lus
-# large/ccp07.lus
-# large/ccp08.lus
-# large/ccp09.lus
-# large/ccp10.lus
-# large/ccp11.lus
-# large/ccp12.lus
-# large/ccp13.lus
-# large/ccp14.lus
-# large/ccp15.lus
-# large/ccp16.lus
-# large/ccp17.lus
-# large/ccp18.lus
-# large/ccp19.lus
-# large/ccp20.lus
-# large/ccp21.lus
-# large/ccp22.lus
-# large/ccp23.lus
-# large/ccp24.lus
-# large/cruise_controller_01.lus
-# large/cruise_controller_02.lus
-# large/cruise_controller_03.lus
-# large/cruise_controller_04.lus
-# large/cruise_controller_05.lus
-# large/cruise_controller_06.lus
-# large/cruise_controller_07.lus
-# large/cruise_controller_08.lus
-# large/cruise_controller_09.lus
-# large/cruise_controller_10.lus
-# large/cruise_controller_11.lus
-# large/cruise_controller_12.lus
-# large/cruise_controller_13.lus
-# large/cruise_controller_14.lus
-# large/cruise_controller_15.lus
-# large/cruise_controller_16.lus
-# large/cruise_controller_17.lus
-# large/cruise_controller_18.lus
-# large/cruise_controller_19.lus
-# large/cruise_controller_20.lus
-# large/cruise_controller_21.lus
-# large/cruise_controller_22.lus
-# large/cruise_controller_23.lus
-# large/cruise_controller_24.lus
-# large/microwave01.lus
-# large/microwave02.lus
-# large/microwave03.lus
-# large/microwave04.lus
-# large/microwave05.lus
-# large/microwave06.lus
-# large/microwave07.lus
-# large/microwave08.lus
-# large/microwave09.lus
-# large/microwave10.lus
-# large/microwave11.lus
-# large/microwave12.lus
-# large/microwave13.lus
-# large/microwave14.lus
-# large/microwave15.lus
-# large/microwave16.lus
-# large/microwave17.lus
-# large/microwave18.lus
-# large/microwave19.lus
-# large/microwave20.lus
-# large/microwave21.lus
-# large/microwave22.lus
-# large/microwave23.lus
-# large/microwave24.lus
-# large/microwave25.lus
-# large/microwave26.lus
-# large/microwave27.lus
-# large/microwave28.lus
-# large/microwave29.lus
-# large/microwave30.lus
-# large/microwave31.lus
-# large/microwave32.lus
-# large/microwave33.lus
-# large/microwave34.lus
-# large/microwave35.lus
-# large/microwave36.lus
-# large/microwave37.lus
-# large/microwave38.lus
-# large/microwave39.lus
-# large/microwave40.lus
-# large/steam_boiler_no_arr1.lus
-# large/steam_boiler_no_arr1_e4_23904_e4_2384.lus
-# large/steam_boiler_no_arr2.lus
-# large/steam_boiler_no_arr2_e1_17214_e5_18600.lus
-# large/steam_boiler_no_arr2_e3_514_e4_11150.lus
-# large/steam_boiler_no_arr2_e6_3003_e4_15091.lus
-# large/steam_boiler_no_arr2_e7_12307.lus
-# large/steam_boiler_no_arr2_e8_21449_e5_18210.lus
+large/ccp01.lus
+large/ccp02.lus
+large/ccp03.lus
+large/ccp04.lus
+large/ccp05.lus
+large/ccp06.lus
+large/ccp07.lus
+large/ccp08.lus
+large/ccp09.lus
+large/ccp10.lus
+large/ccp11.lus
+large/ccp12.lus
+large/ccp13.lus
+large/ccp14.lus
+large/ccp15.lus
+large/ccp16.lus
+large/ccp17.lus
+large/ccp18.lus
+large/ccp19.lus
+large/ccp20.lus
+large/ccp21.lus
+large/ccp22.lus
+large/ccp23.lus
+large/ccp24.lus
+large/cruise_controller_01.lus
+large/cruise_controller_02.lus
+large/cruise_controller_03.lus
+large/cruise_controller_04.lus
+large/cruise_controller_05.lus
+large/cruise_controller_06.lus
+large/cruise_controller_07.lus
+large/cruise_controller_08.lus
+large/cruise_controller_09.lus
+large/cruise_controller_10.lus
+large/cruise_controller_11.lus
+large/cruise_controller_12.lus
+large/cruise_controller_13.lus
+large/cruise_controller_14.lus
+large/cruise_controller_15.lus
+large/cruise_controller_16.lus
+large/cruise_controller_17.lus
+large/cruise_controller_18.lus
+large/cruise_controller_19.lus
+large/cruise_controller_20.lus
+large/cruise_controller_21.lus
+large/cruise_controller_22.lus
+large/cruise_controller_23.lus
+large/cruise_controller_24.lus
+large/microwave01.lus
+large/microwave02.lus
+large/microwave03.lus
+large/microwave04.lus
+large/microwave05.lus
+large/microwave06.lus
+large/microwave07.lus
+large/microwave08.lus
+large/microwave09.lus
+large/microwave10.lus
+large/microwave11.lus
+large/microwave12.lus
+large/microwave13.lus
+large/microwave14.lus
+large/microwave15.lus
+large/microwave16.lus
+large/microwave17.lus
+large/microwave18.lus
+large/microwave19.lus
+large/microwave20.lus
+large/microwave21.lus
+large/microwave22.lus
+large/microwave23.lus
+large/microwave24.lus
+large/microwave25.lus
+large/microwave26.lus
+large/microwave27.lus
+large/microwave28.lus
+large/microwave29.lus
+large/microwave30.lus
+large/microwave31.lus
+large/microwave32.lus
+large/microwave33.lus
+large/microwave34.lus
+large/microwave35.lus
+large/microwave36.lus
+large/microwave37.lus
+large/microwave38.lus
+large/microwave39.lus
+large/microwave40.lus
+large/steam_boiler_no_arr1.lus
+large/steam_boiler_no_arr1_e4_23904_e4_2384.lus
+large/steam_boiler_no_arr2.lus
+large/steam_boiler_no_arr2_e1_17214_e5_18600.lus
+large/steam_boiler_no_arr2_e3_514_e4_11150.lus
+large/steam_boiler_no_arr2_e6_3003_e4_15091.lus
+large/steam_boiler_no_arr2_e7_12307.lus
+large/steam_boiler_no_arr2_e8_21449_e5_18210.lus
 protocol/peterson_1.lus
 protocol/peterson_1_e7_4234.lus
 protocol/peterson_2.lus

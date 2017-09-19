@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+Luke/
+encoding.py
+*.pyc
+filelist_real.txt
+trace.cpp

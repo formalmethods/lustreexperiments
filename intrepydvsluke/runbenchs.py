@@ -165,9 +165,9 @@ def doit():
     for fname in filtered_filelist:
         i += 1
         fullname = parsed_args.benchmarks + '/' + fname
-        sys.stdout.flush()
-        translator.translate(fullname, 'top', 'encoding.py', cfg['type.real'])
-        time.sleep(1) # Give some extra time to write encoding.py to a file
+        if parsed_args.tool != 'luke':
+            translator.translate(fullname, 'top', 'encoding.py', cfg['type.real'])
+            time.sleep(1) # Give some extra time to write encoding.py to a file
         result, mtime = run_with_timeout(fullname, parsed_args.timeout, parsed_args.tool)
         # print '%4.1f %% %s %s %.2f' % (100.0 * i / len_filelist, fname, result, mtime)
         print '%s %s %.2f' % (fname, result, mtime)
