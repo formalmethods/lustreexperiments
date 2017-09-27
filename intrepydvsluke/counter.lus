@@ -1,0 +1,4 @@
+node counter(reset : bool) returns (c : int);
+let
+	c = 0 -> if reset then 0 else (pre c) + 1;
+tel

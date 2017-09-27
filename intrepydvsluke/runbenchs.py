@@ -150,7 +150,7 @@ def doit():
                                  help='a text file that specifies the list of files to process')
     argument_parser.add_argument('tool', type=str,
                                  help='specifies the tool to be run (intrepyd_br, intrepyd_bmc, intrepyd_parallel, luke)')
-    argument_parser.add_argument('-t', '--timeout', type=int, default=300,
+    argument_parser.add_argument('-t', '--timeout', type=int, default=TIMEOUT,
                                  help='specifies the timeout in seconds for each benchmark')
     argument_parser.add_argument('-c', '--config', default='config.json',
                                  help='Specifies a config file')
