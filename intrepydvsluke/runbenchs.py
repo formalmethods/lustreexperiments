@@ -10,6 +10,7 @@ import psutil
 from intrepyd.engine import EngineResult
 from intrepyd.lustre2py import translator
 from intrepyd import config
+import intrepyd
 
 TIMEOUT = 300
 
@@ -20,7 +21,10 @@ def worker_intrepyd_br(result, mtime):
     enc = importlib.import_module('encoding')
     start = time.time()
     try:
-        ctx, prop = enc.lustre2py_main_ctxless()
+        ctx = intrepyd.Context()
+        circ = enc.mk_instance(ctx, 'Circ')
+        circ.mk_circuit()
+        prop = circ.outputs.items()[0][1]
         breach = ctx.mk_backward_reach()
         breach.add_target(ctx.mk_not(prop))
         eng_result = breach.reach_targets()
@@ -42,7 +46,10 @@ def worker_intrepyd_bmc(result, mtime):
     start = time.time()
     result.value = 'Unknown'
     try:
-        ctx, prop = enc.lustre2py_main_ctxless()
+        ctx = intrepyd.Context()
+        circ = enc.mk_instance(ctx, 'Circ')
+        circ.mk_circuit()
+        prop = circ.outputs.items()[0][1]
         bmc = ctx.mk_bmc()
         bmc.add_target(ctx.mk_not(prop))
         for depth in range(100000):
